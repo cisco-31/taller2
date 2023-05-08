@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <title>Taller 2</title>
+  <meta name="description" content="Taller 2">
+  <meta name="author" content="Robert Koteles">
+  <link rel="stylesheet" href="css/normalize.css?v=1.0">
+  <link rel="stylesheet" href="css/jquery.zoom.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+
+	<!-- Zomm area -->
+	<div class="map">
+	  <div class="maps-container unselectable" style="overflow: auto;">
+
+			<div class="map-control map-control-zoomin"></div>
+			<div class="map-control map-control-zoomout"></div>
+
+			<!-- maps-container-inner -->
+			<div class="maps-container-inner zoomedElement zoomedElement414" style="transform: scale(4.54782); left: -379.615px; top: 334.1px;">
+				<!-- maps-zoomed-container -->
+				<div class="maps-zoomed-container">
+
+					<div class="map-image" id="map-all" style="display:block;">
+						<img src="images/chile.svg" alt="Chile map"/>
+					</div>					
+					<div class="marker-all marker-group" id="group-marker-arica" style="display: block; transform: scale(0.219886);">
+						<a href="#"></a>
+						<span>Arica</span>
+					</div>
+					<div class="marker-all marker-group" id="group-marker-santiago" style="display: block; transform: scale(0.219886);">
+						<a href="#"></a>
+						<span>Santiago</span>
+					</div>
+					<div class="marker-all marker-group" id="group-marker-punta-arenas" style="display: block; transform: scale(0.219886);">
+						<a href="#"></a>
+						<span>Punta Arenas</span>
+					</div>
+				</div>
+				<!-- //maps-zoomed-container -->
+			</div>
+			<!-- //maps-container-inner -->
+		</div>
+	</div>
+
+	<!-- /Zomm area -->
+
+
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js"></script>
+  <script src="js/zoom.jquery.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
